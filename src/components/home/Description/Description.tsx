@@ -26,7 +26,7 @@ export const Description = () => {
           <Image
             src="/images/description.jpeg"
             alt="products marketplace"
-            fill
+            fill //ajusta la altura y el ancho de la imagen según las dimensiones del contenedor 
             placeholder='blur'
             blurDataURL={PLACEHOLDER_IMAGE}
           />
@@ -34,7 +34,7 @@ export const Description = () => {
       </button>
       <div className={styles.Description__text}>
         <h2>Bring the future today</h2>
-        <p>Future World: Your Gateway to Tomorrow's Tech! Dive into a world of cutting-edge gadgets and gear. Stay ahead of the curve and redefine your digital lifestyle with us.</p>
+        <p>Future World: Your Gateway to Tomorrows Tech! Dive into a world of cutting-edge gadgets and gear. Stay ahead of the curve and redefine your digital lifestyle with us.</p>
       </div>
     </section>
   )
