@@ -11,13 +11,14 @@ const getProducts = async () => {
     const { products } = await response.json()
     return products
   } catch (error) {
-    console.log(error)
+    console.log(error);
+    
   }
 }
 
 export const MainProducts = async () => {
   const products = await getProducts()
-  
+  console.log(products)
   return (
     <section className={styles.MainProducts}>
       <h3>✨ New products released!</h3>
